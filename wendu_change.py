@@ -13,7 +13,7 @@ plt.Figure(figsize=(20,8), dpi=100)
 
 #2.图像绘制
 plt.plot(x,y_beijing, color="g", label="北京", linestyle="-.")
-plt.plot(x,y_shanghai, label="上海")
+plt.plot(x,y_shanghai, label="山西")
 
 #2.1添加x,y轴刻度
 y_ticks = range(40)
@@ -28,7 +28,7 @@ plt.grid(True, linestyle="-", alpha=0.5)
 #2.3添加描述
 plt.xlabel("时间")
 plt.ylabel("温度")
-plt.title("一小时温度变化图", fontsize=20)
+plt.title("一小时温度变化图", fontsize=10)
 
 #2.4显示图例
 plt.legend(loc="best")

@@ -52,3 +52,4 @@ axes[1].legend(loc="best")
 
 #3.图像显示
 plt.show()
+
